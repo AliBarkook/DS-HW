@@ -25,7 +25,7 @@ void size() {
     if (top == -1)
         cout<<"array is empty"<<endl;
     else
-        cout<<"stack size is: "<<top<<endl;
+        cout<<"stack size is: "<<top+1<<endl;
 }
 
 void peek() {

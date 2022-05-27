@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int queue[5], n = 5, head = -1, tail = 0;
+int queue[1000], n = 1000, head = -1, tail = 0;
 
 void enqueue(int a) {
     if (tail+1 == head)
